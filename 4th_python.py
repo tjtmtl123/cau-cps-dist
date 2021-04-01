@@ -15,6 +15,6 @@ for i in range(total_teams):
     num_of_members = int(total_students/total_teams)
     index = i * num_of_members
     project_team.append(list_students[index:index+num_of_members])
-    
+
 for i in project_team:
     print(i)
